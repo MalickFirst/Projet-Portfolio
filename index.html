@@ -1,12 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first Bootstrap Project</title>
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+
+  <!-- Additional CSS must be placed after Bootstrap CSS -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+    <title>ChefOscar</title>
 </head>
 <body>
-   <h1>the header</h1> 
+   
+
+   
+    <!--Navigation Bar-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="img/logo.jpg" width="100" height="100" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+               <li class="nav-item active">
+                   <a class="nav-link" href="#">Menu</a>
+               </li>
+              <li class="nav-item">
+                   <a class="nav-link" href="#">About</a>
+              </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link" href="#">Contact Us</a>
+               </li>
+          </ul>
+      </div>
+ </nav>
+
+    <!--End of Navigation Bar-->
+
+
+    <!--Presentation-->
+   <div class="container">
+       <div class="row">
+               <div class="col">
+                <div class="card mb-3">
+                    <img class="img-fluid" src="img/Chef.jpg" width="500" height="400" alt="Responsive Image">
+                    <div class="card-body">
+                      <h2 class="card-title">Chef Oscar</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dicta tempora error delectus ullam? Nemo et optio cupiditate, asperiores quisquam ipsa suscipit beatae voluptas explicabo odit, atque ipsam, tempora aliquam..</p>
+                    </div>
+                  </div>
+               </div>
+       </div>
+ </div>
+   
+  
+    <!--End of Presentation-->
+
+    <!--Menu--> 
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                 <h3 class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam officiis </h3>
+            </div>
+        </div>
+        <div class="row">
+           <div class="col">
+              <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="img/fod.jpg" alt="Card image cap">
+                   <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+              </div>
+           </div>
+           <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/food.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+           </div>
+           <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/food.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+           </div>
+        </div>
+
+    </div>
+    <!--End of Menus-->
+
+    <!--footer-->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+               <div class="col-8">
+                   <h4>Bresca resautaurant</h4>
+                   <small> 304 W Pacific Ave, Suite #210
+                    Spokane, WA 99201
+                    
+                    509-263-6129</small>
+               </div>
+               <div class="col">
+                <h5>Services</h5>
+                <small>Eat and to Go</small>
+               </div>
+               <div class="col">
+                <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+               </div>
+            </div>
+         </div>
+    </div>
+  
+    <!--End of footer-->
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  
 </body>
 </html>
