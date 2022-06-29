@@ -44,102 +44,99 @@
 
 <!--contact-->
 <div class="container">
-
-    <div class="row row-content align-items-center">
+    <div class="row align-items-center">
         <div class="col-sm-4">
             <h5>Our Address</h5>
             <address>
-                304 W Pacific Ave, Suite #210 <br>
-                    Spokane, WA 99201
+                304 W Pacific Ave, Suite #210<br />
+                Spokane, WA 99201<br />
+                U.S.A.
             </address>
         </div>
         <div class="col">
-            <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i> 509-263-6129</a><br />
-            <a role="button" class="btn btn-link" href="restaubresca@gmail.com"><i class="fa fa-envelope-o"></i> Restaurant Bresca</a>
+            <a role="button" class="btn btn-link" href="tel:+15092636129"><i class="fa fa-phone"></i> 509-263-6129</a><br />
+            <a role="button" class="btn btn-link" href="mailto:bresca"><i class="fa fa-envelope-o"></i> brescarestaurant@gmail.com</a>
         </div>
     </div>
-    
-    <div class="row row-content">
+    <div class="row">
         <div class="col-12">
             <h2>Send us your Feedback</h2>
             <hr />
         </div>
-        <div class="col-md-10">
-            
-                <form>
-                    <div class="form-group row">
-                        <label for="firstName" class="col-md-2 col-form-label">First Name</label>
-                        <div class="col-md-10">
-                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
-                        </div>
+        <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputFirstname">First Name</label>
+                <input type="firstname" class="form-control" id="inputFirstname" placeholder="firstname">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputLastname">Last Name</label>
+                <input type="inputLastname" class="form-control" id="inputLastnanme" placeholder="lastname">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputEmail4">Email</label>
+              <input type="text" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+           
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputcode">Area Code</label>
+                <input type="text" class="form-control" id="inputcode">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputtel">Contact Tel</label>
+                <input type="text" class="form-control" id="inputtel">
+              </div>
+            </div>
+            <div class="form-group row">
+                <div class="col offset-md-2">
+                    May we contact you?
+                    <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" id="contactYes" name="contactRadios" value="yes" />
+                        <label for="contactYes" class="form-check-label">Yes</label>
                     </div>
-                    <div class="form-group row">
-                        <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
-                        <div class="col-md-10">
-                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
-                        </div>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" id="contactNo" name="contactRadios" value="no" />
+                        <label for="contactNo" class="form-check-label">No</label>
                     </div>
-                    <div class="form-group row">
-                        <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
-                        <div class="col-5 col-md-3">
-                            <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code" />
-                        </div>
-                        <div class="col-7">
-                            <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="email" class="col-md-2 col-form-label">Email</label>
-                        <div class="col-md-10">
-                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="col offset-md-2">
-                            May we contact you?
-                            <div class="form-check form-check-inline">
-                                <input type="radio" class="form-check-input" id="contactYes" name="contactRadios" value="yes" />
-                                <label for="contactYes" class="form-check-label">Yes</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input type="radio" class="form-check-input" id="contactNo" name="contactRadios" value="no" />
-                                <label for="contactNo" class="form-check-label">No</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
-                        <div class="col-md-10">
-                            <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="offset-md-2 col-md-10">
-                            <button type="submit" class="btn btn-primary">Send Feedback</button>
-                        </div>
-                    </div>
-                </form>
-        </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Feedback</button>
+          </form>
     </div>
- 
+  
+    
 </div>
 
 <!--End of contact-->
 
+ <!--footer-->
+ <footer class="site-footer">
+    <div class="container">
+        <div class="row">
+           <div class="col-6">
+               <h4>Bresca resautaurant</h4>
+               <small> 304 W Pacific Ave, Suite #210 <br>
+                Spokane, WA 99201 <a role="button" class="btn btn-link" href="tel:+15092636129"><i class="fa fa-phone"></i> 509-263-6129</a><br /></small>
+           </div>
+           <div class="col">
+            <h5>Services</h5>
+            <small>Eat and to Go</small>
+            <br>
+            <small>Birthday party</small>
+           </div>
+           <div class="col">
+            <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+            <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+            <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+            <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+           </div>
+        </div>
+     </div>
+</footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!--End of footer-->
      <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
      <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
      <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
